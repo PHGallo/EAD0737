@@ -1,20 +1,20 @@
-# Aula 1: Apresentação, Interface, Variáveis e Operações
+# Aula 1: ApresentaÃ§Ã£o, Interface, VariÃ¡veis e OperaÃ§Ãµes
 
-### Operadores matemáticos básicos
+### Operadores matemÃ¡ticos bÃ¡sicos
 
 # Soma
 1 + 8
 
-# Subtração
+# Subtra??o
 7 - 10
 
-# Multiplicação
+# Multiplica??o
 54 * 46
 
-# Divisão
+# Divis?o
 62832 / 20000
 
-### Funções matemáticas
+### Fun??es matem?ticas
 # help(log)
 
 # Valor absoluto
@@ -46,7 +46,7 @@ tan(pi/3)
 ### Vetor
 vetor = c(8, 4, 7, 10, 9)
 
-# Número de elementos do vetor
+# N?mero de elementos do vetor
 length(vetor)
 
 # Seleciona o maior elemento do vetor
@@ -58,10 +58,10 @@ min(vetor)
 # Retorna o menor e maior elemento do vetor
 range(vetor)
 
-### Sinal de associação
+### Sinal de associa??o
 x = 1 # x recebe ou guarda o valor 1
 
-# Podemos escrever expressões com variáveis
+# Podemos escrever express?es com vari?veis
 y = x + 8
 
 ### Classes
@@ -70,18 +70,18 @@ y = x + 8
 x = "Palavra"
 class(x)
 
-# numeric - números reais (decimais - separação decimal por .)
+# numeric - n?meros reais (decimais - separa??o decimal por .)
 y = 3.14
 class(y)
 
-# integer - números inteiros (usa-se L, maiúsculo, para R reconhecer valor inteiro)
+# integer - n?meros inteiros (usa-se L, mai?sculo, para R reconhecer valor inteiro)
 z = 5L
 class(z)
 
-# logical - expressões lógicas
+# logical - express?es l?gicas
 w = TRUE
 class(w)
 
-# complex - números complexos 
+# complex - n?meros complexos 
 t = 1 + 4i
 class(t)
