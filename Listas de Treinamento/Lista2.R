@@ -22,13 +22,7 @@ paste("Existem", n, "números de 1 a 959 divisíveis por 3")
 
 ### Qustão 3
 
-X = rep(0, 64)
-
-for (i in 1:64) {
-  X[i] = log(i, base = 15)
-}
-
-matriz = matrix(X, nrow = 8, ncol = 8, byrow = T)
+matrix(log(1:64, base = 15), nrow = 8, ncol = 8, byrow = T)
 
 ### Questão 4
 
@@ -40,7 +34,6 @@ somaN = function () {
 
 somaN2 = function() {
   n = as.numeric(readline("Digite n: "))
-  X = seq(1, n)
   paste("Usando a fórmula (n*(n+1))/2, a soma de 1 até", n, "é:", (n*(n+1))/2)
 }
 

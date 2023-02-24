@@ -1,23 +1,15 @@
-# Sucessão de Fibonacci
+# Problema do Coelho de Fibonacci
 
-# Crie a sequência de Fibonacci com os 500 elementos iniciais
-Fibonacci = c(1, 1)
-for (i in 3:500) {
-  Fibonacci[i] <- Fibonacci[i - 2] + Fibonacci[i - 1]
+par_coelhos = 15
+par_ferteis = 12
+meses = 0
+
+while (par_coelhos < 5800) {
+  meses = meses + 1
+  aux = par_ferteis
+  par_ferteis = par_coelhos
+  par_coelhos = par_coelhos + aux
 }
 
-# Vetor contendo os 10 primeiros elementos que restam 1 na divisão por 2
-vetor = numeric(10)
-cont = 1
-i = 1
+print(meses)
 
-while (cont < 11) {
-  if (Fibonacci[i] %% 2 == 1) {
-    vetor[cont] = Fibonacci[i]
-    cont = cont + 1
-  }
-  i = i + 1
-}
-
-# Soma dos 10 elementos
-sum(vetor)
